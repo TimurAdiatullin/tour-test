@@ -1,0 +1,45 @@
+@import '/src/assets/styles/variables';
+
+.header {
+	padding: 6px 106px;
+	& div {
+		display: flex;
+		align-items: center;
+		font-size: 26px;
+	}
+	background: $primary-blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__left {
+	}
+	&__right {
+	}
+	&__logo {
+		margin-right: 109px;
+	}
+	&__items {
+	}
+	&__item {
+		&:nth-child(1) {
+			margin-right: 40px;
+		}
+	}
+	&__images {
+		& svg {
+			margin-right: 29px;
+		}
+		& svg:nth-child(3) {
+			margin-right: 51px;
+		}
+	}
+	&__image {
+	}
+	&__numbers {
+	}
+	&__number {
+		&:nth-child(1) {
+			margin-right: 69px;
+		}
+	}
+}

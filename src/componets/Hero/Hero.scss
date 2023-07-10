@@ -1,0 +1,39 @@
+.hero {
+	background: url(/public/images/bg.jpg) center center no-repeat;
+	background-size: cover;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 5rem 6.87rem 9.18rem 6.87rem;
+	line-height: normal;
+	&__main {
+	}
+	&__title {
+		font-size: 15.625rem;
+		font-weight: 700;
+	}
+	&__subtitle {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-bottom: 6.44rem;
+	}
+	&__items {
+		display: flex;
+	}
+	&__item {
+		font-family: Jost;
+		width: 19.8125rem;
+		margin-right: 3.12rem;
+	}
+	&__fact {
+		color: #fff;
+		text-align: center;
+		font-size: 2rem;
+		font-style: normal;
+		font-weight: 800;
+		line-height: normal;
+	}
+	&__desc {
+		text-align: center;
+	}
+}

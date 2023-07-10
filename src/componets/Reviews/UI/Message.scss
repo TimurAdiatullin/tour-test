@@ -1,0 +1,38 @@
+.message {
+	background-color: rgba(38, 38, 38, 0.5);
+	backdrop-filter: blur(6px);
+	width: 18.0625rem;
+	padding: 1rem;
+	position: relative;
+	&.message__left {
+		border-radius: 0 5px 5px 5px;
+	}
+	&.message__right {
+		border-radius: 5px 0 5px 5px;
+	}
+	margin-top: 3rem;
+	&__left::before {
+		content: '';
+		width: 34px;
+		height: 25px;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -34px;
+		background-color: rgba(38, 38, 38, 0.5);
+		backdrop-filter: blur(6px);
+		border-radius: 10px 0 0 100px;
+	}
+	&__right::before {
+		content: '';
+		width: 34px;
+		height: 25px;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: -34px;
+		background-color: rgba(38, 38, 38, 0.5);
+		backdrop-filter: blur(6px);
+		border-radius: 0 10px 100px 0;
+	}
+}

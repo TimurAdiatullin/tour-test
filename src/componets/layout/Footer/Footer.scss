@@ -1,0 +1,41 @@
+@import '/src/assets/styles/variables';
+.footer {
+	background: $footer-black;
+	padding: 0 250px 29px 140px;
+	font-size: 24px;
+	&__up {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__img {
+		margin-bottom: 61px;
+	}
+	&__image {
+	}
+	&__cont {
+		margin-top: 34px;
+	}
+	&__title {
+		font-weight: 900;
+		margin-bottom: 18px;
+	}
+	&__subtitle {
+		font-size: 20px;
+	}
+	&__items {
+	}
+	&__item {
+	}
+	&__info {
+		margin-top: 34px;
+	}
+	&__logos {
+		margin-top: 44px;
+		& svg:nth-child(1) {
+			margin-right: 46px;
+		}
+		& svg:nth-child(2) {
+			margin-right: 46px;
+		}
+	}
+}
